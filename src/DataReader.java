@@ -1,6 +1,5 @@
-import java.sql.SQLException;
 
 public interface DataReader {
-    boolean HasNew() throws SQLException;
-    Person ReadNext() throws SQLException;
+    boolean HasNew() throws Exception;
+    Person ReadNext() throws Exception;
 }

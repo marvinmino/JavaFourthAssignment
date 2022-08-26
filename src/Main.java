@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args){
         try{
             DbReader dbReader = new DbReader();
-            FileReader fileReader = new FileReader("C:\\Users\\marvi\\IdeaProjects\\secondAssigment\\src\\file.txt");
+            FileReader fileReader = new FileReader("src/file.txt");
             PerformCalculations calculator= new PerformCalculations();
 
             System.out.println("File Calculations: ");

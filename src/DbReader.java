@@ -19,7 +19,7 @@ public class DbReader implements DataReader{
                     .executeQuery("select * from u323045651_citta.citta");
         }
 
-        public boolean HasNew() throws SQLException {
+        public boolean HasNew() throws SQLException{
             if(_resultSet.next()) {
                return true;
             }else{
@@ -39,7 +39,7 @@ public class DbReader implements DataReader{
             return false;
         }
 
-        public Person ReadNext() throws SQLException {
+        public Person ReadNext() throws SQLException{
             String nome = _resultSet.getString("nome");
             String cognome = _resultSet.getString("cognome");
             String indirizzo = _resultSet.getString("indirizzo");

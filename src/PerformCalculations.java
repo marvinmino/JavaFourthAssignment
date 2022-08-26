@@ -2,7 +2,7 @@ import java.sql.SQLException;
 import java.util.HashSet;
 
 public class PerformCalculations {
-    public void Perform(DataReader dataReader) throws SQLException {
+    public void Perform(DataReader dataReader) throws Exception {
         HashSet<String> names = new HashSet<String>();
         HashSet<String> cities = new HashSet<String>();
 
